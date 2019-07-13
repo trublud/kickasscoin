@@ -1,0 +1,11 @@
+#define DEF__VERSION_TAG "@VERSIONTAG@"
+#define DEF__VERSION "0.0.0.1"
+#define DEF__RELEASE_NAME "Maggot Eggs"
+#define DEF__VERSION_FULL DEF__VERSION "-" DEF__VERSION_TAG
+
+#include "version.h"
+
+const char* const _VERSION_TAG = DEF__VERSION_TAG;
+const char* const _VERSION = DEF__VERSION;
+const char* const _RELEASE_NAME = DEF__RELEASE_NAME;
+const char* const _VERSION_FULL = DEF__VERSION_FULL;
